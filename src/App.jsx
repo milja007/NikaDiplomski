@@ -55,7 +55,7 @@ function App() {
     // Title and metadata
     doc.setFont("helvetica");
     doc.setFontSize(16);
-    doc.text("Sustainability Quiz Results", 20, 20);
+    doc.text("Checklist", 20, 20);
 
     doc.setFontSize(12);
     doc.text(`Date: ${new Date().toLocaleString()}`, 20, 30);
@@ -74,7 +74,7 @@ function App() {
     });
 
     // Save the PDF
-    doc.save("sustainability_quiz_results.pdf");
+    doc.save("checklist.pdf");
   };
 
   return (

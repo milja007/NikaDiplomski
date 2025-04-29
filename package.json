@@ -1,8 +1,20 @@
 {
   "name": "nika-diplomski",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
+  "description": "",
+  "homepage": "https://github.com/milja007/NikaDiplomski#readme",
+  "bugs": {
+    "url": "https://github.com/milja007/NikaDiplomski/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milja007/NikaDiplomski.git"
+  },
+  "license": "ISC",
+  "author": "",
   "type": "module",
+  "main": "eslint.config.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
