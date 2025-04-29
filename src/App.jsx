@@ -78,7 +78,7 @@ function App() {
               <span className="item-text">
                 {index + 1}. {item.text}
                 {item.removable && (
-                  <span className="removable-tag"> (Optional)</span>
+                  <span className="removable-tag"> (Value-added)</span>
                 )}
               </span>
               <span className="item-score">

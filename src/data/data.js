@@ -52,7 +52,7 @@ export const quizItems = [
     id: 9,
     text: "We provide basic inclusion training to staff and gather informal feedback from participants",
     score: 3,
-    removable: false,
+    removable: true,
   },
   {
     id: 10,
@@ -89,7 +89,7 @@ export const quizItems = [
     id: 15,
     text: "We organize workshops or learning methods to educate the audience about reusability, durability, and recyclability",
     score: 3,
-    removable: false,
+    removable: true,
   },
 
   {
@@ -108,7 +108,7 @@ export const quizItems = [
     id: 18,
     text: "We promote an existing awareness campaign (e.g., #ReFashionNow) through our social media channels and event materials",
     score: 2,
-    removable: false,
+    removable: true,
   },
   {
     id: 19,
@@ -127,7 +127,7 @@ export const quizItems = [
     id: 21,
     text: "We require vendors and partners to align with our zero-waste principles (e.g., no plastic packaging, reusable materials)",
     score: 3,
-    removable: false,
+    removable: true,
   },
   {
     id: 22,
@@ -175,19 +175,19 @@ export const quizItems = [
     id: 29,
     text: "At least 25% of the event infrastructure is powered by renewable energy sources (e.g., green energy, HVO)",
     score: 2,
-    removable: false,
+    removable: true,
   },
   {
     id: 30,
     text: "At least 50% of the event infrastructure is powered by renewable energy sources",
     score: 3,
-    removable: false,
+    removable: true,
   },
   {
     id: 31,
     text: "100% of the event infrastructure is powered by renewable energy sources",
     score: 4,
-    removable: false,
+    removable: true,
   },
   {
     id: 32,
@@ -199,7 +199,7 @@ export const quizItems = [
     id: 33,
     text: "All batteries used in the event are rechargeable and have a low-toxicity battery system",
     score: 3,
-    removable: false,
+    removable: true,
   },
   {
     id: 34,
@@ -217,7 +217,7 @@ export const quizItems = [
     id: 36,
     text: "We have conducted research into alternative energy solutions for events and identified potential opportunities for municipal collaboration",
     score: 3,
-    removable: false,
+    removable: true,
   },
   {
     id: 37,
@@ -248,13 +248,13 @@ export const quizItems = [
     id: 41,
     text: "We require that all electronic equipment used at the event complies with the EU Energy Label standards (A to G rating system) - LINK ZA OVO",
     score: 4,
-    removable: false,
+    removable: true,
   },
   {
     id: 42,
     text: "All vending machines present at the event have built-in energy-saving systems (e.g., LED lighting, smart cooling, standby modes)",
     score: 2,
-    removable: false,
+    removable: true,
   },
   {
     id: 43,
@@ -286,7 +286,7 @@ export const quizItems = [
     id: 47,
     text: "We provide visitors with a map or list of public transport options and bike routes to the event location",
     score: 2,
-    removable: false,
+    removable: true,
   },
   {
     id: 48,
@@ -298,13 +298,13 @@ export const quizItems = [
     id: 49,
     text: "All attendees of the event have received best practices, optimized routes, impact of the routes and the lowest carbon option in terms of transportation",
     score: 3,
-    removable: false,
+    removable: true,
   },
   {
     id: 50,
     text: "We provide coordinated group transport options for both attendees and event staff/models/performers",
     score: 3,
-    removable: false,
+    removable: true,
   },
 
   {
@@ -317,13 +317,13 @@ export const quizItems = [
     id: 52,
     text: "We provide financial support for sustaianble travel to the event through grants or reimbursement program",
     score: 4,
-    removable: false,
+    removable: true,
   },
   {
     id: 53,
     text: "We include a fixed Solidarity Eco Tax on all ticket purchases to contribute to offsetting event-related travel emissions",
     score: 3,
-    removable: false,
+    removable: true,
   },
   {
     id: 54,
@@ -335,7 +335,7 @@ export const quizItems = [
     id: 55,
     text: "We request that delivery providers disclose vehicle emission standards and prioritize lower-emission options when available",
     score: 1,
-    removable: false,
+    removable: true,
   },
   {
     id: 56,
@@ -359,7 +359,7 @@ export const quizItems = [
     id: 59,
     text: "We identify opportunities to bundle deliveries from the same supplier or internal departments into one combined shipment",
     score: 3,
-    removable: false,
+    removable: true,
   },
   {
     id: 60,
@@ -415,25 +415,25 @@ export const quizItems = [
     id: 68,
     text: "We utilize the venue’s existing water infrastructure and avoid installing temporary water systems for the event",
     score: 3,
-    removable: false,
+    removable: true,
   },
   {
     id: 69,
     text: "The venue was chosen and scheduled to use natural light to lower energy spending",
     score: 4,
-    removable: false,
+    removable: true,
   },
   {
     id: 70,
     text: "Only certified sustainable soaps, detergents, and cleaning products were used prior, during, and after the event",
     score: 4,
-    removable: false,
+    removable: true,
   },
   {
     id: 71,
     text: "All paper and cleaning supplies at the event meet EU Ecolabel requirements",
     score: 2,
-    removable: false,
+    removable: true,
   },
   {
     id: 72,
@@ -446,13 +446,13 @@ export const quizItems = [
     id: 73,
     text: "The event is hosted at a venue that monitors and reports its carbon emissions, providing accessible data to support sustainability tracking",
     score: 3,
-    removable: false,
+    removable: true,
   },
   {
     id: 74,
     text: "We offer parking for bikes and cars",
     score: 1,
-    removable: false,
+    removable: true,
   },
   {
     id: 75,
@@ -506,13 +506,13 @@ export const quizItems = [
     id: 83,
     text: "The event discloses plant protein infromation for meals",
     score: 2,
-    removable: false,
+    removable: true,
   },
   {
     id: 84,
     text: "We Encourage local restaurants to adopt sustainable menus for festival attendees",
     score: 2,
-    removable: false,
+    removable: true,
   },
   {
     id: 85,
@@ -524,13 +524,13 @@ export const quizItems = [
     id: 86,
     text: "Caterers and venues have received guidance from organizers on how to redistribute food surplus.",
     score: 3,
-    removable: false,
+    removable: true,
   },
   {
     id: 87,
     text: "Organizers have communicated waste management procedures to caterers and venues.",
     score: 3,
-    removable: false,
+    removable: true,
   },
   {
     id: 88,
@@ -542,7 +542,7 @@ export const quizItems = [
     id: 89,
     text: "The food providors of the event are using a multi day ingrediant re use system to cut down food waste",
     score: 4,
-    removable: false,
+    removable: true,
   },
   {
     id: 90,
@@ -566,7 +566,7 @@ export const quizItems = [
     id: 93,
     text: "We have made arrangements to return unopened or unused goods (e.g., drinks) to the retailer/ distributor after the event.",
     score: 2,
-    removable: false,
+    removable: true,
   },
   {
     id: 94,
@@ -578,7 +578,7 @@ export const quizItems = [
     id: 95,
     text: "Caterers hired for the event track and report their sustainability practices at least twice per year.",
     score: 3,
-    removable: false,
+    removable: true,
   },
   {
     id: 96,
@@ -596,7 +596,7 @@ export const quizItems = [
     id: 98,
     text: "Reusable hard cups are used insted of single used plastics or disposables to decrease overall aste",
     score: 3,
-    removable: false,
+    removable: true,
   },
   {
     id: 99,
@@ -638,13 +638,13 @@ export const quizItems = [
     id: 105,
     text: "All staff and crew are provided with scheduled breaks in accordance with national labor laws and regulations",
     score: 3,
-    removable: false,
+    removable: true,
   },
   {
     id: 106,
     text: "The event complies with the 20 principles of the European Pillar of Social Rights - provide link",
     score: 4,
-    removable: false,
+    removable: true,
   },
   {
     id: 107,
@@ -668,7 +668,7 @@ export const quizItems = [
     id: 110,
     text: "A resource allocation plan has been created that outlines how equipment, workspace, and budget are distributed across departments or roles, and it has been reviewed to ensure equity (e.g., similar roles have access to similar tools and support)",
     score: 3,
-    removable: false,
+    removable: true,
   },
   {
     id: 111,
@@ -698,7 +698,7 @@ export const quizItems = [
     id: 115,
     text: "Quiet spaces are arranged backstage to support staff and talent well-being, including designated areas for rest or decompression",
     score: 3,
-    removable: false,
+    removable: true,
   },
   {
     id: 116,
@@ -710,31 +710,31 @@ export const quizItems = [
     id: 117,
     text: "We have identified whether any staff or crew have childcare needs and adjusted schedules or provided relevant support accordingly",
     score: 4,
-    removable: false,
+    removable: true,
   },
   {
     id: 118,
     text: "We provide internships or upskilling opportunities through our event",
     score: 3,
-    removable: false,
+    removable: true,
   },
   {
     id: 119,
     text: "All staff and volunteers have participated in a training session or received materials on sustainability and circular practices relevant to their role",
     score: 3,
-    removable: false,
+    removable: true,
   },
   {
     id: 120,
     text: "Local community members are engaged in the event through at least one of the following: paid positions, training programs, volunteer opportunities, or long-term partnerships.",
     score: 4,
-    removable: false,
+    removable: true,
   },
   {
     id: 121,
     text: "Local second-hand or vintage stores are promoted or included in the event (e.g., via pop-up stalls, partnerships, or mentions in communications)",
     score: 4,
-    removable: false,
+    removable: true,
   },
   {
     id: 122,
@@ -746,7 +746,7 @@ export const quizItems = [
     id: 123,
     text: "All fabrics used for event decoration or staging are sourced from nature-based and ethically responsible suppliers",
     score: 3,
-    removable: false,
+    removable: true,
   },
   {
     id: 124,
