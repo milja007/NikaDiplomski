@@ -1,0 +1,162 @@
+/* index.css */
+
+/* Import the Inter font */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+/* Define CSS variables for light mode */
+:root {
+  --page-bg-color: hsl(80, 15%, 90%); /* Light beige background for the page */
+  --app-bg-color: hsl(
+    40,
+    20%,
+    95%
+  ); /* Beige background for the app container */
+  --app-border-color: hsl(
+    80,
+    15%,
+    70%
+  ); /* Subtle border for the app container */
+  --text-color: hsl(80, 30%, 25%); /* Darker olive green text */
+  --heading-color: hsl(80, 30%, 35%); /* Olive green heading color */
+  --category-heading-color: hsl(
+    80,
+    25%,
+    45%
+  ); /* Slightly lighter olive green for categories */
+  --category-border-color: hsl(80, 15%, 80%); /* Separator line color */
+  --item-bg-color: #fff; /* White background for items */
+  --item-border-color: hsl(80, 10%, 85%); /* Lighter border for items */
+  --item-hover-bg-color: hsl(
+    40,
+    10%,
+    98%
+  ); /* Slightly darker beige on item hover */
+  --item-hover-border-color: hsl(80, 15%, 75%); /* Item hover border color */
+  --item-text-color: hsl(80, 25%, 30%); /* Darker olive green for item text */
+  --removable-tag-color: hsl(80, 15%, 50%); /* Muted green for optional tag */
+  --item-score-color: hsl(80, 30%, 45%); /* Olive green for score */
+  --checkbox-border-color: hsl(80, 30%, 35%); /* Olive green checkbox border */
+  --checkbox-checked-bg-color: hsl(
+    80,
+    30%,
+    35%
+  ); /* Olive green checkbox background when checked */
+  --checkbox-checkmark-color: white; /* White checkmark */
+  --button-bg-color: hsl(80, 30%, 35%); /* Olive green button background */
+  --button-hover-bg-color: hsl(
+    80,
+    30%,
+    25%
+  ); /* Darker olive green on button hover */
+  --button-text-color: #fff; /* White button text */
+  --result-bg-color: hsl(80, 10%, 90%); /* Light beige background for result */
+  --result-border-color: hsl(80, 20%, 60%); /* Dashed border for result */
+  --result-text-color: hsl(80, 30%, 35%); /* Olive green color for result */
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --page-bg-color: hsl(
+      80,
+      30%,
+      12%
+    ); /* Dark olive green background for the page */
+    --app-bg-color: hsl(
+      80,
+      25%,
+      18%
+    ); /* Slightly lighter dark olive for the app container */
+    --app-border-color: hsl(
+      80,
+      20%,
+      30%
+    ); /* Border for the app container in dark mode */
+    --text-color: hsl(40, 30%, 85%); /* Light beige text */
+    --heading-color: hsl(40, 30%, 90%); /* Lighter beige heading color */
+    --category-heading-color: hsl(
+      40,
+      25%,
+      80%
+    ); /* Slightly darker beige for categories */
+    --category-border-color: hsl(
+      80,
+      20%,
+      35%
+    ); /* Separator line color in dark mode */
+    --item-bg-color: hsl(80, 20%, 25%); /* Darker olive for items */
+    --item-border-color: hsl(80, 15%, 35%); /* Border for items in dark mode */
+    --item-hover-bg-color: hsl(
+      80,
+      20%,
+      30%
+    ); /* Slightly lighter dark olive on item hover */
+    --item-hover-border-color: hsl(
+      80,
+      15%,
+      40%
+    ); /* Item hover border color in dark mode */
+    --item-text-color: hsl(40, 30%, 80%); /* Light beige for item text */
+    --removable-tag-color: hsl(40, 20%, 60%); /* Muted beige for optional tag */
+    --item-score-color: hsl(40, 30%, 75%); /* Beige for score */
+    --checkbox-border-color: hsl(
+      40,
+      30%,
+      85%
+    ); /* Light beige checkbox border */
+    --checkbox-checked-bg-color: hsl(
+      40,
+      30%,
+      85%
+    ); /* Light beige checkbox background when checked */
+    --checkbox-checkmark-color: hsl(80, 30%, 15%); /* Dark olive checkmark */
+    --button-bg-color: hsl(40, 30%, 85%); /* Light beige button background */
+    --button-hover-bg-color: hsl(
+      40,
+      30%,
+      90%
+    ); /* Lighter beige on button hover */
+    --button-text-color: hsl(80, 30%, 15%); /* Dark olive button text */
+    --result-bg-color: hsl(80, 20%, 30%); /* Dark olive background for result */
+    --result-border-color: hsl(
+      40,
+      20%,
+      60%
+    ); /* Dashed border for result in dark mode */
+    --result-text-color: hsl(40, 30%, 85%); /* Light beige color for result */
+  }
+}
+
+/* Apply basic styling to the body using variables */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--page-bg-color); /* Use variable */
+  color: var(--text-color); /* Use variable */
+  font-family: "Inter", sans-serif; /* Default font */
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for theme change */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Basic reset for box-sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Ensure the root element takes up full height */
+#root {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: flex-start; /* Align content to the top */
+  padding: 20px; /* Add some padding around the content */
+}

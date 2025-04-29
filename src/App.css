@@ -1,0 +1,166 @@
+/* App.css */
+
+/* Basic styling for the main app container using variables */
+.App {
+  max-width: 700px; /* Slightly wider for better layout */
+  margin: 40px auto;
+  padding: 30px; /* More padding */
+  font-family: "Inter", sans-serif; /* Use Inter font */
+  background-color: var(--app-bg-color); /* Use variable */
+  color: var(--text-color); /* Use variable */
+  border-radius: 12px; /* More rounded corners */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Stronger shadow */
+  border: 1px solid var(--app-border-color); /* Use variable */
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease; /* Smooth transition */
+}
+
+/* Styling for the main heading using variables */
+h1 {
+  text-align: center;
+  margin-bottom: 30px; /* More space below heading */
+  color: var(--heading-color); /* Use variable */
+  font-size: 2em; /* Larger font size */
+  font-weight: bold;
+  transition: color 0.3s ease; /* Smooth transition */
+}
+
+/* Styling for category headings using variables */
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: var(--category-heading-color); /* Use variable */
+  border-bottom: 1px solid var(--category-border-color); /* Use variable */
+  padding-bottom: 5px;
+  transition: color 0.3s ease, border-color 0.3s ease; /* Smooth transition */
+}
+
+/* Container for quiz items */
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* More space between items */
+}
+
+/* Styling for individual quiz items (labels) using variables */
+.quiz-item {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Space between checkbox, text, and score */
+  padding: 15px; /* More padding */
+  background-color: var(--item-bg-color); /* Use variable */
+  border: 1px solid var(--item-border-color); /* Use variable */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer; /* Indicate clickable */
+  transition: background-color 0.2s ease, border-color 0.2s ease; /* Smooth transition */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+}
+
+/* Hover effect for quiz items using variables */
+.quiz-item:hover {
+  background-color: var(--item-hover-bg-color); /* Use variable */
+  border-color: var(--item-hover-border-color); /* Use variable */
+}
+
+/* Style the checkbox using variables */
+.quiz-item input[type="checkbox"] {
+  /* Hide default checkbox */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--checkbox-border-color); /* Use variable */
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  outline: none; /* Remove outline */
+  flex-shrink: 0; /* Prevent shrinking */
+  transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+/* Style the checkbox when checked using variables */
+.quiz-item input[type="checkbox"]:checked {
+  background-color: var(--checkbox-checked-bg-color); /* Use variable */
+  border-color: var(--checkbox-checked-bg-color); /* Use variable */
+}
+
+/* Create a custom checkmark using variables */
+.quiz-item input[type="checkbox"]:checked::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 6px;
+  width: 5px;
+  height: 10px;
+  border: solid var(--checkbox-checkmark-color); /* Use variable */
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+/* Styling for the quiz item text using variables */
+.item-text {
+  flex: 1;
+  color: var(--item-text-color); /* Use variable */
+  line-height: 1.5;
+  transition: color 0.3s ease; /* Smooth transition */
+}
+
+/* Styling for the removable tag using variables */
+.removable-tag {
+  font-size: 0.8em;
+  color: var(--removable-tag-color); /* Use variable */
+  margin-left: 5px;
+  font-style: italic;
+  transition: color 0.3s ease; /* Smooth transition */
+}
+
+/* Styling for the item score using variables */
+.item-score {
+  font-weight: bold;
+  color: var(--item-score-color); /* Use variable */
+  flex-shrink: 0; /* Prevent shrinking */
+  transition: color 0.3s ease; /* Smooth transition */
+}
+
+/* Styling for the submit button using variables */
+.submit-btn {
+  display: block;
+  margin: 30px auto 0; /* More space above button */
+  padding: 12px 25px; /* More padding */
+  font-size: 1.1rem; /* Slightly larger font */
+  color: var(--button-text-color); /* Use variable */
+  background-color: var(--button-bg-color); /* Use variable */
+  border: none;
+  border-radius: 6px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease; /* Smooth transition */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow */
+}
+
+/* Hover effect for the submit button using variables */
+.submit-btn:hover {
+  background-color: var(--button-hover-bg-color); /* Use variable */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Active state for the submit button */
+.submit-btn:active {
+  transform: translateY(0); /* Press down effect */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the result display using variables */
+.result {
+  text-align: center;
+  margin-top: 25px; /* More space above result */
+  font-size: 1.3rem; /* Larger font size */
+  font-weight: bold;
+  color: var(--result-text-color); /* Use variable */
+  padding: 15px;
+  background-color: var(--result-bg-color); /* Use variable */
+  border-radius: 8px;
+  border: 1px dashed var(--result-border-color); /* Use variable */
+  transition: background-color 0.3s ease, color 0.3s ease,
+    border-color 0.3s ease; /* Smooth transition */
+}
