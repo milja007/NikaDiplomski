@@ -48,7 +48,6 @@ function App() {
     setDisplayedDenominator(currentDenominator);
   };
 
-  // Generate PDF for results
   const generatePDF = () => {
     const doc = new jsPDF();
 
@@ -65,16 +64,32 @@ function App() {
       40
     );
 
-    let yOffset = 50;
+    let yOffset = 50; // Set the initial offset for the first item
+
+    // Max width to ensure text fits within the PDF page
+    const maxWidth = 180; // Adjust this value based on your layout
+
+    // Consistent gap between lines (you can adjust this value)
+    const lineHeight = 10; // Adjusted for better spacing
+
     quizItems.forEach((item, index) => {
       if (selected[item.id]) {
-        doc.text(`${index + 1}. ${item.text} - ${item.score} pts`, 20, yOffset);
-        yOffset += 10;
+        // Concatenate the sentence number and the item text
+        let text = `${index + 1}. ${item.text} - ${item.score} pts`;
+
+        // Split the text into multiple lines if needed, based on maxWidth
+        const textLines = doc.splitTextToSize(text, maxWidth); // Automatically splits text into multiple lines
+
+        // Add each line of text to the PDF
+        textLines.forEach((line) => {
+          doc.text(line, 20, yOffset);
+          yOffset += lineHeight; // Increase Y offset after each line
+        });
       }
     });
 
     // Save the PDF
-    doc.save("checklist.pdf");
+    doc.save("Checklist.pdf");
   };
 
   return (
