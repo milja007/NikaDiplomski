@@ -816,7 +816,7 @@ export const Kategories = [
   { id: 3, text: "Mobility and Transportation:", firstIndex: 48 },
   { id: 4, text: "Location and Resources:", firstIndex: 66 },
   { id: 5, text: "Food, Beverage and Catering:", firstIndex: 77 },
-  { id: 6, text: "Labor, Ethics and Social Rights:", firstIndex: 103 },
+  { id: 6, text: "Labor Ethics and Social Rights:", firstIndex: 103 },
   { id: 7, text: "Stakeholder Engagement:", firstIndex: 121 },
   { id: 8, text: "Waste and Circularity:", firstIndex: 127 },
 ];

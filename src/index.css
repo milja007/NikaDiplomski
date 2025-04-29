@@ -160,3 +160,32 @@ code {
   align-items: flex-start; /* Align content to the top */
   padding: 20px; /* Add some padding around the content */
 }
+
+/* Custom Styling for the "Download Results" Button */
+.download-btn {
+  display: block;
+  margin: 20px auto 0; /* Center button with some space on top */
+  padding: 12px 25px; /* Padding inside the button */
+  font-size: 1.1rem; /* Slightly larger font */
+  color: var(--button-text-color); /* Text color from variables */
+  background-color: var(
+    --button-bg-color
+  ); /* Background color from variables */
+  border: none;
+  border-radius: 6px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease; /* Smooth transitions */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Hover effect for the download button using variables */
+.download-btn:hover {
+  background-color: var(--button-hover-bg-color); /* Hover color */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+/* Active state for the download button */
+.download-btn:active {
+  transform: translateY(0); /* Press down effect */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
