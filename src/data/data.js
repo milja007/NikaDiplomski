@@ -7,7 +7,7 @@ export const quizItems = [
   },
   {
     id: 2,
-    text: "We have developed a roadmap for long term sustainability planning",
+    text: "We have developed a roadmap for long-term sustainability planning",
     score: 4,
     removable: false,
   },
@@ -25,14 +25,14 @@ export const quizItems = [
   },
   {
     id: 5,
-    text: "We have a team (individual) dedicated to sustaianbility",
+    text: "We have a team (individual) dedicated to sustainability",
     score: 3,
     removable: true,
   },
 
   {
     id: 6,
-    text: "We measure and evalute sustaianbility initiatives internally",
+    text: "We measure and evaluate sustainability initiatives internally",
     score: 3,
     removable: true,
   },
@@ -63,7 +63,7 @@ export const quizItems = [
 
   {
     id: 11,
-    text: "All stakeholders have been notified of their resposibilities regarding sustaianbility",
+    text: "All stakeholders have been notified of their responsibilities regarding sustainability",
     score: 1,
     removable: false,
   },
@@ -94,13 +94,13 @@ export const quizItems = [
 
   {
     id: 16,
-    text: "We collaborate with municipality to research and implement new sustainability solutions",
+    text: "We collaborate with the municipality to research and implement new sustainability solutions",
     score: 2,
     removable: true,
   },
   {
     id: 17,
-    text: "We collaborate with universities to research and implement new sustaianbility solutions",
+    text: "We collaborate with universities to research and implement new sustainability solutions",
     score: 2,
     removable: true,
   },
@@ -221,14 +221,14 @@ export const quizItems = [
   },
   {
     id: 37,
-    text: "We have critically assessed the event’s energy needs and optimized usage by considering time of day, natural lighting, and necessary equipment only",
+    text: "We have critically assessed the event’s energy needs and optimized usage by considering the time of day, natural lighting, and necessary equipment only",
     score: 3,
     removable: false,
   },
 
   {
     id: 38,
-    text: "We have set energy limits on locations to optimise power usage - provide link how to do",
+    text: "We have set energy limits on locations to optimize power usage - provide a link on how to do",
     score: 3,
     removable: false,
   },
@@ -296,7 +296,7 @@ export const quizItems = [
   },
   {
     id: 49,
-    text: "All attendees of the event have received best practices, optimized routes, impact of the routes and the lowest carbon option in terms of transportation",
+    text: "All attendees of the event have received best practices, optimized routes, impact of the routes , and the lowest carbon option in terms of transportation",
     score: 3,
     removable: true,
   },
@@ -315,7 +315,7 @@ export const quizItems = [
   },
   {
     id: 52,
-    text: "We provide financial support for sustaianble travel to the event through grants or reimbursement program",
+    text: "We provide financial support for sustainable travel to the event through grants or reimbursement programs",
     score: 4,
     removable: true,
   },
@@ -376,7 +376,7 @@ export const quizItems = [
 
   {
     id: 62,
-    text: "We use hydrotreated vegetable oil (HVO) for on site transport instead of traditional fuels",
+    text: "We use hydrotreated vegetable oil (HVO) for on-site transport instead of traditional fuels",
     score: 3,
     removable: true,
   },
@@ -456,7 +456,7 @@ export const quizItems = [
   },
   {
     id: 75,
-    text: "All our suppliers comply with ethical, sustainable and animal walfare standards",
+    text: "All our suppliers comply with ethical, sustainable and animal welfare standards",
     score: 4,
     removable: false,
   },
@@ -492,19 +492,19 @@ export const quizItems = [
   },
   {
     id: 81,
-    text: "endagared and unsustainable seafood options are banned from menues",
+    text: "endangerered and unsustainable seafood options are banned from menues",
     score: 3,
     removable: false,
   },
   {
     id: 82,
-    text: "We provide vegan, vegetarian and gluten free optins to everyone that is part of the event in any way",
+    text: "We provide vegan, vegetarian and gluten-free options to everyone that is part of the event in any way",
     score: 3,
     removable: false,
   },
   {
     id: 83,
-    text: "The event discloses plant protein infromation for meals",
+    text: "The event discloses plant protein information for meals",
     score: 2,
     removable: true,
   },
@@ -540,7 +540,7 @@ export const quizItems = [
   },
   {
     id: 89,
-    text: "The food providors of the event are using a multi day ingrediant re use system to cut down food waste",
+    text: "The food providers of the event are using a multi-day ingredient reuse system to cut down food waste",
     score: 4,
     removable: true,
   },
@@ -594,7 +594,7 @@ export const quizItems = [
   },
   {
     id: 98,
-    text: "Reusable hard cups are used insted of single used plastics or disposables to decrease overall aste",
+    text: "Reusable hard cups are used instead of single-use plastics or disposables to decrease overall aste",
     score: 3,
     removable: true,
   },
@@ -618,7 +618,7 @@ export const quizItems = [
   },
   {
     id: 102,
-    text: "All workers involved in the event are paid at or above the local living wage standard - find source with the world minimal age infromatin",
+    text: "All workers involved in the event are paid at or above the local living wage standard - find a source with the world minimum age information",
     score: 4,
     removable: false,
   },
@@ -642,7 +642,7 @@ export const quizItems = [
   },
   {
     id: 106,
-    text: "The event complies with the 20 principles of the European Pillar of Social Rights - provide link",
+    text: "The event complies with the 20 principles of the European Pillar of Social Rights",
     score: 4,
     removable: true,
   },
