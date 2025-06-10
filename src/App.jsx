@@ -136,12 +136,14 @@ function App() {
         but do not impact the minimum requirement.
       </p>
 
-      <p>
-        The downloadable excel file checklist for continuance and offline use:
-      </p>
-      <button className="download-excel-btn" onClick={downloadExcel}>
-        Download Excel Checklist
-      </button>
+      <div className="download-section">
+        <h3>
+          The downloadable excel file checklist for continuance and offline use:
+        </h3>
+        <button className="download-excel-btn" onClick={downloadExcel}>
+          Download
+        </button>
+      </div>
 
       <div className="quiz-container">
         {quizItems.map((item, index) => (
