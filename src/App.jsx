@@ -1,5 +1,7 @@
 import React, { useState, useMemo } from "react";
 import { jsPDF } from "jspdf"; // Import jsPDF for PDF generation
+import { saveAs } from "file-saver";
+import * as XLSX from "xlsx";
 import "./App.css";
 import { quizItems } from "./data/data"; // Ensure this path is correct
 import { Kategories } from "./data/data";
@@ -92,6 +94,18 @@ function App() {
     doc.save("Checklist.pdf");
   };
 
+  const downloadExcel = () => {
+    // Preuzimanje postojeće Excel datoteke iz public direktorija
+    fetch("/Full_Sustainability_Checklist.xlsx")
+      .then((response) => response.blob())
+      .then((blob) => {
+        saveAs(blob, "Full_Sustainability_Checklist.xlsx");
+      })
+      .catch((error) => {
+        console.error("Greška pri preuzimanju Excel datoteke:", error);
+      });
+  };
+
   return (
     <div className="App">
       <h1>Event Sustainability Checklist</h1>
@@ -121,6 +135,13 @@ function App() {
         based on Mandatory items. Value-Added items can raise your score further
         but do not impact the minimum requirement.
       </p>
+
+      <p>
+        The downloadable excel file checklist for continuance and offline use:
+      </p>
+      <button className="download-excel-btn" onClick={downloadExcel}>
+        Download Excel Checklist
+      </button>
 
       <div className="quiz-container">
         {quizItems.map((item, index) => (

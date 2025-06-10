@@ -164,3 +164,27 @@ h3 {
   transition: background-color 0.3s ease, color 0.3s ease,
     border-color 0.3s ease; /* Smooth transition */
 }
+
+.download-excel-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  color: var(--button-text-color);
+  background-color: var(--button-bg-color);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.download-excel-btn:hover {
+  background-color: var(--button-hover-bg-color);
+  transform: translateY(-2px);
+}
+
+.download-excel-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
