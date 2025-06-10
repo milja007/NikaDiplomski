@@ -137,7 +137,7 @@ function App() {
 
       <div className="download-section">
         <h3>
-          The downloadable excel file checklist for continuance and offline use:
+          The downloadable Excel file checklist for convenience and offline use:
         </h3>
         <button className="download-excel-btn" onClick={downloadExcel}>
           Download
