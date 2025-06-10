@@ -1,7 +1,6 @@
 import React, { useState, useMemo } from "react";
 import { jsPDF } from "jspdf"; // Import jsPDF for PDF generation
 import { saveAs } from "file-saver";
-import * as XLSX from "xlsx";
 import "./App.css";
 import { quizItems } from "./data/data"; // Ensure this path is correct
 import { Kategories } from "./data/data";
